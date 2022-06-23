@@ -6,8 +6,12 @@
 
 리눅스와 맥에만 포함
 
-nano ~.bashrc or nano ~.zshrc
+`git clone github.com/ImNyang/MirTerminal.git`
 
-맨 아래줄에 /이_파일_경로_포함/MirTerminal.py
+`nano ~.bashrc or nano ~.zshrc`
+
+위에서 연 파일 맨 아래에
+
+`/이_파일_경로_포함/MirTerminal.py`
 
 Ver. PreAlpha 0.1
