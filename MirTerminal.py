@@ -4,6 +4,6 @@ print("   _____  .__                                      \n  /     \ |__|______
 print("Ver. Pre-Alpha 0.1++")
 
 while(True):
-    r = str(input('MirTerminal % '))
+    path = os.getcwd()
+    r = str(input(f'MirTerminal / {path} % '))
     os.system(r)
-    
