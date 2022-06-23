@@ -1,13 +1,6 @@
 import os
 
 while(True):
-    # cntrl-c to quit
-    input = raw_input('your_prompt$ ')
-    input = input.split()
-    if input[0] == 'ls':
-        dire = '.'
-        if len(input) > 1:
-            dire = input[1]
-        print('\n'.join(os.listdir(dire)))
-    else:
-        print('error')
+    print("   _____  .__                                      \n  /     \ |__|______ ___.__._____    ____    ____  \n /  \ /  \|  \_  __ <   |  |\__  \  /    \  / ___\ \n/    Y    \  ||  | \/\___  | / __ \|   |  \/ /_/  >\n\____|__  /__||__|   / ____|(____  /___|  /\___  / \n        \/           \/          \/     \//_____/  ")
+    r = str(input('MirTerminal % '))
+    print(os.system(r))
