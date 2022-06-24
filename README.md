@@ -1,19 +1,28 @@
 # MirTerminal
 
-## 간단한 터미널
+## 간단한 zsh 테마
 
-+ 발견된 버그 : Path 이동 불가 (어짭히 곧 zsh이동 예정)
+### zsh
 
-대충 저거 설치법
+Linux
+debian : `sudo apt install zsh`
+red hat : `sudo dnf install zsh`
 
-리눅스와 맥에만 포함
+MacOS
+Brew : `brew install zsh`
 
-`git clone github.com/ImNyang/MirTerminal.git`
+### oh my zsh
 
-`nano ~.bashrc or nano ~.zshrc`
+`sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
-위에서 연 파일 맨 아래에
+### Install Theme
 
-`/이_파일_경로_포함/MirTerminal.py`
+`git clone https://github.com/ImNyang/MirTerminal.git`
+클론 후 안에 있는 readme.md를 제외한 파일을 `~.oh-my-zsh/themes`에 넣는다.
 
-Ver. PreAlpha 0.1
+그후 `~.zshrc`파일을 수정한다.
+`ZSH_THEME="mirnyang"`
+
+그리고 터미널을 종료후 다시 실행한다
+
++ 윈도우에선 wsl을 이용해 가능하다.
