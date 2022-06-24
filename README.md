@@ -1,5 +1,7 @@
 # MirTerminal
 
+![image](https://user-images.githubusercontent.com/72956792/175517390-b334c48d-6675-4599-a5df-11371ea3f568.png)
+
 ## 간단한 zsh 테마
 
 ### zsh
