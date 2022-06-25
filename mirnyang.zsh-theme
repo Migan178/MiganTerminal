@@ -1,5 +1,18 @@
 echo "   _____  .__        _______                                \n  /     \ |__|______ \      \ ___.__._____    ____    ____  \n /  \ /  \|  \_  __ \/   |   <   |  |\__  \  /    \  / ___\ \n/    Y    \  ||  | \/    |    \___  | / __ \|   |  \/ /_/  >\n\____|__  /__||__|  \____|__  / ____|(____  /___|  /\___  / \n        \/                  \/\/          \/     \//_____/  "
 
+echo "\033[0;32mHi! \033[0m`whoami`" && echo "\033[0mThis is \033[0;35mMirNyang Terminal v1.0.\033[0m\n"
+
+echo "\033[1;33mKernel Info : `uname -mrs`"
+echo "\033[1;34mOS Info : `case "$OSTYPE" in
+  solaris*) echo "Solaris" ;;
+  darwin*)  echo "MacOS" ;; 
+  linux*)   echo "Linux" ;;
+  bsd*)     echo "BSD" ;;
+  *)        echo "Error OS Type = $OSTYPE" ;;
+esac`"
+
+echo "\033[1;31mAll Update in https://github.com/ImNyang/MirTerminal\nPls check it"
+
 if [ "x$OH_MY_ZSH_HG" = "x" ]; then
     OH_MY_ZSH_HG="hg"
 fi
@@ -21,10 +34,10 @@ function box_name {
 }
 
 PROMPT='
-%{$fg[magenta]%}%n%{$reset_color%}@%{$fg[yellow]%}$(box_name)%{$reset_color%} in %{$fg_bold[green]%}${PWD/#$HOME/🏠}%{$reset_color%}$(hg_prompt_info)$(git_prompt_info)
+%{$fg[yellow]%}%n%{$reset_color%}@%{$fg[cyan]%}$(box_name)%{$reset_color%} in %{$fg_bold[green]%}${PWD/#$HOME/🏠}%{$reset_color%}$(hg_prompt_info)$(git_prompt_info)
 $(virtualenv_info)%(?,,%{${fg_bold[white]}%}[%?]%{$reset_color%} )[MirTerminal] %% '
 
-ZSH_THEME_GIT_PROMPT_PREFIX=" on %{$fg[magenta]%}"
+ZSH_THEME_GIT_PROMPT_PREFIX=" on \033[0;31m%{%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[green]%}!"
 ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[green]%}?"
@@ -32,3 +45,7 @@ ZSH_THEME_GIT_PROMPT_CLEAN=""
 
 local return_status="%{$fg[red]%}%(?..✘)%{$reset_color%}"
 RPROMPT='${return_status}%{$reset_color%}'
+
+#Credit ImNyang
+#Thanks OhMyZsh
+#MirNyang Theme
