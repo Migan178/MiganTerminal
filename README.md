@@ -7,7 +7,8 @@
 ### zsh
 
 Linux
-debian : `sudo apt install zsh`\n
+debian : `sudo apt install zsh`
+
 red hat : `sudo dnf install zsh`
 
 MacOS
