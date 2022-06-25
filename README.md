@@ -22,8 +22,8 @@ Brew : `brew install zsh`
 `git clone https://github.com/ImNyang/MirTerminal.git`
 클론 후 안에 있는 readme.md를 제외한 파일을 `~.oh-my-zsh/themes`에 넣는다.
 
-그후 `~.zshrc`파일을 수정한다.
-`ZSH_THEME="mirnyang"`
+그후 `~./zshrc`파일을 수정한다.
+`ZSH_THEME="mirterminal"`
 
 그리고 터미널을 종료후 다시 실행한다
 
