@@ -1,7 +1,10 @@
+# ASCII ART
 echo "   _____  .__        _______                                \n  /     \ |__|______ \      \ ___.__._____    ____    ____  \n /  \ /  \|  \_  __ \/   |   <   |  |\__  \  /    \  / ___\ \n/    Y    \  ||  | \/    |    \___  | / __ \|   |  \/ /_/  >\n\____|__  /__||__|  \____|__  / ____|(____  /___|  /\___  / \n        \/                  \/\/          \/     \//_____/  "
 
-echo "\033[0;32mHi! \033[0m`whoami`" && echo "\033[0mThis is \033[0;35mMirNyang Terminal v1.0.\033[0m\n"
+# 인사 + 사용자 명 + 버전
+echo "\033[0;32mHi! \033[0m`whoami`" && echo "\033[0mThis is \033[0;35mMirTerminal v1.0.\033[0m\n"
 
+#운영체제 정보
 echo "\033[1;33mKernel Info : `uname -mrs`"
 echo "\033[1;34mOS Info : `case "$OSTYPE" in
   solaris*) echo "Solaris" ;;
@@ -11,7 +14,10 @@ echo "\033[1;34mOS Info : `case "$OSTYPE" in
   *)        echo "Error OS Type = $OSTYPE" ;;
 esac`"
 
-echo "\033[1;31mAll Update in https://github.com/ImNyang/MirTerminal\nPls check it"
+#공지
+echo "\033[1;31mAll Update in https://github.com/ImNyang/MirTerminal\nPls check every day it"
+
+#터미널 코드
 
 if [ "x$OH_MY_ZSH_HG" = "x" ]; then
     OH_MY_ZSH_HG="hg"
@@ -46,6 +52,6 @@ ZSH_THEME_GIT_PROMPT_CLEAN=""
 local return_status="%{$fg[red]%}%(?..✘)%{$reset_color%}"
 RPROMPT='${return_status}%{$reset_color%}'
 
-#Credit ImNyang & MirNyang
+#Credit ImNyang
 #Thanks OhMyZsh
 #MirNyang Theme
