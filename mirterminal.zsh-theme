@@ -52,6 +52,6 @@ ZSH_THEME_GIT_PROMPT_CLEAN=""
 local return_status="%{$fg[red]%}%(?..✘)%{$reset_color%}"
 RPROMPT='${return_status}%{$reset_color%}'
 
-#Credit ImNyang & MirNyang & NyongRyong
+#Credit ImNyang
 #Thanks OhMyZsh
 #MirNyang Theme
