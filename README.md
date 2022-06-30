@@ -28,5 +28,5 @@ Brew : `brew install zsh`
 
 그리고 터미널을 종료후 다시 실행한다
 
-+ [%EA%B8%B0-](https://github.com/pecigonzalo/Oh-My-Posh#installation-instructions)](https://github.com/pecigonzalo/Oh-My-Posh#installation-instructions)
++ https://github.com/pecigonzalo/Oh-My-Posh#installation-instructions
 윈도우는 이걸 참조하며 테마 설치법은 추후 공지
