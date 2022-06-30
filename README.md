@@ -2,6 +2,8 @@
 
 <img width="568" alt="Screenshot 2022-06-30 at 5 52 17 PM" src="https://user-images.githubusercontent.com/72956792/176635975-c729eb04-23dd-4c03-9e08-3d6e05a07839.png">
 
+https://discord.gg/5vHhFVDuCK
+
 ## 간단한 zsh 테마
 
 ### zsh
