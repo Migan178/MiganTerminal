@@ -23,11 +23,11 @@ Brew : `brew install zsh`
 ### Install Theme
 
 `git clone https://github.com/NyangLab/MirTerminal.git`
-클론 후 안에 있는 readme.md를 제외한 파일을 `~.oh-my-zsh/themes`에 넣는다.
+클론 후 안에 있는 readme.md를 제외한 파일을 `~/.oh-my-zsh/themes`에 넣는다.
 
-그후 `~./zshrc`파일을 수정한다.
+그후 `~/.zshrc`파일을 수정한다.
 `ZSH_THEME="mirterminal"`
 
 그리고 터미널을 종료후 다시 실행한다
 
-+ 윈도우는 사용법 자체가 달라서 추후에 공지 혹은 wsl 사용 (코드에 마지막 줄 `cd /mnt/c/Users/사용자이름/` 이렇게 해도 일반 cmd같이 사용 가능)
++ 윈도우는 사용법 자체가 달라서 추후에 공지 혹은 wsl 사용 (`~/.zshrc`파일에서 마지막줄에 `cd /mnt/c/Users/사용자이름/` 이렇게 해도 일반 cmd같이 사용 가능)
