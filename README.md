@@ -28,4 +28,5 @@ Brew : `brew install zsh`
 
 그리고 터미널을 종료후 다시 실행한다
 
-+ 윈도우에선 wsl을 이용해 가능하다.
++ https://cyanlh.github.io/Dev-ETC/windows10%EC%97%90%EC%84%9C-powershell%EA%B3%BC-git-bash%EC%97%90-zsh-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0/#code-classlanguage-textzshcode-windows-10-%EC%97%90%EC%84%9C-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0-
+윈도우는 이걸 참조하며 테마 설치법은 추후 공지하겠다.
