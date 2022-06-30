@@ -1,6 +1,6 @@
 # MirTerminal
 
-<img width="568" alt="Screenshot 2022-06-30 at 5 52 17 PM" src="https://user-images.githubusercontent.com/72956792/176635975-c729eb04-23dd-4c03-9e08-3d6e05a07839.png">
+<img width="645" alt="Screenshot 2022-07-01 at 7 36 13 AM" src="https://user-images.githubusercontent.com/72956792/176789986-70f6e47d-af39-4aa7-85cb-f535a6ce9ab3.png">
 
 https://discord.gg/5vHhFVDuCK
 
