@@ -6,13 +6,17 @@ echo "\033[0;32mHi! \033[0m`whoami`" && echo "\033[0mThis is \033[0;35mMirTermin
 
 #운영체제 정보
 echo "\033[1;34mOS Info : `case "$OSTYPE" in
-  solaris*) echo "Solaris" ;;
   darwin*)  echo "MacOS" ;; 
   linux*)   echo "Linux" ;;
-  bsd*)     echo "BSD" ;;
   *)        echo "Error OS Type = $OSTYPE" ;;
 esac`"
 echo "\033[1;33mKernel Info : `uname -mrs`"
+echo "\033[1;33mCPU : "
+echo "\033[1;33mCPU : `case "$OSTYPE" in
+  darwin*)  sysctl -n machdep.cpu.brand_string ;; 
+  linux*)   cat /proc/cpuinfo | grep 'model name' | uniq ;;
+  *)        echo "Error OS Type = $OSTYPE" ;;
+esac`"
 echo "\033[1;31mUptime : `uptime`"
 echo "\033[1;37mHost IP : `ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'`"
 
