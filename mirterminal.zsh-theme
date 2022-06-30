@@ -13,7 +13,6 @@ echo "\033[1;34mOS Info : `case "$OSTYPE" in
   *)        echo "Error OS Type = $OSTYPE" ;;
 esac`"
 echo "\033[1;33mKernel Info : `uname -mrs`"
-echo "\033[1;33mCPU : `sysctl -n machdep.cpu.brand_string`"
 echo "\033[1;31mUptime : `uptime`"
 echo "\033[1;37mHost IP : `ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'`"
 
