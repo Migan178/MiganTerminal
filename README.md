@@ -1,6 +1,6 @@
 # MirTerminal
 
-![image](https://user-images.githubusercontent.com/72956792/175765951-60a4b6cd-8c37-48e6-ac7c-e0c5628b2f88.png)
+<img width="568" alt="Screenshot 2022-06-30 at 5 52 17 PM" src="https://user-images.githubusercontent.com/72956792/176635975-c729eb04-23dd-4c03-9e08-3d6e05a07839.png">
 
 ## 간단한 zsh 테마
 
@@ -28,4 +28,4 @@ Brew : `brew install zsh`
 
 그리고 터미널을 종료후 다시 실행한다
 
-+ 윈도우에선 wsl을 이용해 가능하다.
++ 윈도우는 사용법 자체가 달라서 추후에 공지 혹은 wsl 사용 (코드에 마지막 줄 `cd /mnt/c/Users/사용자이름/` 이렇게 해도 일반 cmd같이 사용 가능)
