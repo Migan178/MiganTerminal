@@ -1,11 +1,10 @@
 # ASCII ART
-echo "   _____  .__        _______                                \n  /     \ |__|______ \      \ ___.__._____    ____    ____  \n /  \ /  \|  \_  __ \/   |   <   |  |\__  \  /    \  / ___\ \n/    Y    \  ||  | \/    |    \___  | / __ \|   |  \/ /_/  >\n\____|__  /__||__|  \____|__  / ____|(____  /___|  /\___  / \n        \/                  \/\/          \/     \//_____/  "
+echo "\033[1;35m   _____  .__        _______                                \n  /     \ |__|______ \      \ ___.__._____    ____    ____  \n /  \ /  \|  \_  __ \/   |   <   |  |\__  \  /    \  / ___\ \n/    Y    \  ||  | \/    |    \___  | / __ \|   |  \/ /_/  >\n\____|__  /__||__|  \____|__  / ____|(____  /___|  /\___  / \n        \/                  \/\/          \/     \//_____/  "
 
 # 인사 + 사용자 명 + 버전
-echo "\033[0;32mHi! \033[0m`whoami`" && echo "\033[0mThis is \033[0;35mMirTerminal v1.0.\033[0m\n"
+echo "\033[0;32mHi! \033[0m`whoami`" && echo "\033[0mThis is \033[0;35mMirTerminal v1.1.\033[0m\n"
 
 #운영체제 정보
-echo "\033[1;33mKernel Info : `uname -mrs`"
 echo "\033[1;34mOS Info : `case "$OSTYPE" in
   solaris*) echo "Solaris" ;;
   darwin*)  echo "MacOS" ;; 
@@ -13,12 +12,15 @@ echo "\033[1;34mOS Info : `case "$OSTYPE" in
   bsd*)     echo "BSD" ;;
   *)        echo "Error OS Type = $OSTYPE" ;;
 esac`"
-echo "CPU : `sysctl -n machdep.cpu.brand_string`"
-echo "Mem : `hwprefs memory_size`"
-echo "Host IP : `ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'`"
+echo "\033[1;33mKernel Info : `uname -mrs`"
+echo "\033[1;33mCPU : `sysctl -n machdep.cpu.brand_string`"
+echo "\033[1;31mUptime : `uptime`"
+echo "\033[1;37mHost IP : `ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'`"
+
+echo ""
 
 #공지
-echo "\033[1;31mAll Update in https://github.com/ImNyang/MirTerminal\nPls check every day it"
+echo "\033[1;31mAll Update in https://github.com/ImNyang/MirTerminal\nPls check every day it\033[1;37m"
 
 #터미널 코드
 
