@@ -11,7 +11,6 @@ echo "\033[1;34mOS Info : `case "$OSTYPE" in
   *)        echo "Error OS Type = $OSTYPE" ;;
 esac`"
 echo "\033[1;33mKernel Info : `uname -mrs`"
-echo "\033[1;33mCPU : "
 echo "\033[1;33mCPU : `case "$OSTYPE" in
   darwin*)  sysctl -n machdep.cpu.brand_string ;; 
   linux*)   cat /proc/cpuinfo | grep 'model name' | uniq ;;
