@@ -13,6 +13,9 @@ echo "\033[1;34mOS Info : `case "$OSTYPE" in
   bsd*)     echo "BSD" ;;
   *)        echo "Error OS Type = $OSTYPE" ;;
 esac`"
+echo "CPU : `sysctl -n machdep.cpu.brand_string`"
+echo "Mem : `hwprefs memory_size`"
+echo "Host IP : `ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'`"
 
 #공지
 echo "\033[1;31mAll Update in https://github.com/ImNyang/MirTerminal\nPls check every day it"
