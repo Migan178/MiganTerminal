@@ -22,8 +22,8 @@ Brew : `brew install zsh`
 
 ### Install Theme
 
-`git clone https://github.com/NyangLab/MirTerminal.git`
-클론 후 안에 있는 readme.md를 제외한 파일을 `~/.oh-my-zsh/themes`에 넣는다.
+`wget https://raw.githubusercontent.com/NyangLab/MirTerminal/main/mirterminal.zsh-theme`
+wget 후 파일을 `~/.oh-my-zsh/themes`에 넣는다.
 
 그후 `~/.zshrc`파일을 수정한다.
 `ZSH_THEME="mirterminal"`
