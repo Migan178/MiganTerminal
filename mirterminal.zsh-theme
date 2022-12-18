@@ -43,7 +43,7 @@ patches: <patches|join( → )|pre_applied(%{$fg[yellow]%})|post_applied(%{$reset
 }
 
 function box_name {
-    [ -f ~/.box-name ] && cat ~/.box-name || uname -n
+    [ -f ~/.box-name ] && cat ~/.box-name || hostname -s || uname -n
 }
 
 PROMPT='
