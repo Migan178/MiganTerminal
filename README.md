@@ -24,7 +24,7 @@ Brew : `brew install zsh`
 
 ### Install Theme
 
-`wget https://raw.githubusercontent.com/Migan178/MiganTerminal/main/mirterminal.zsh-theme`
+`wget https://raw.githubusercontent.com/Migan178/MiganTerminal/main/miganterminal.zsh-theme`
 wget 후 파일을 `~/.oh-my-zsh/themes`에 넣는다.
 
 그후 `~/.zshrc`파일을 수정한다.
