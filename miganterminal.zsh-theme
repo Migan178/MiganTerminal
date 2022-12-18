@@ -1,8 +1,8 @@
 # ASCII ART
-echo "\033[1;35m   _____  .__        _______                                \n  /     \ |__|______ \      \ ___.__._____    ____    ____  \n /  \ /  \|  \_  __ \/   |   <   |  |\__  \  /    \  / ___\ \n/    Y    \  ||  | \/    |    \___  | / __ \|   |  \/ /_/  >\n\____|__  /__||__|  \____|__  / ____|(____  /___|  /\___  / \n        \/                  \/\/          \/     \//_____/  "
+echo "\033[1;35m   _____   .__    ____                   \n  /     \  |__|  / ___\ _____     ____   \n /  \ /  \ |  | / /_/  >\__  \   /    \  \n/    Y    \|  | \___  /  / __ \_|   |  \ \n\____|__  /|__|/_____/  (____  /|___|  / \n        \/                   \/      \/  "
 
 # 인사 + 사용자 명 + 버전
-echo "\033[0;32mHi! \033[0m`whoami`" && echo "\033[0mThis is \033[0;35mMirTerminal v1.1.\033[0m\n"
+echo "\033[0;32mHi! \033[0m`whoami`" && echo "\033[0mThis is \033[0;35mMiganTerminal v1.0.\033[0m\n"
 
 #운영체제 정보
 echo "\033[1;34mOS Info : `case "$OSTYPE" in
@@ -22,7 +22,7 @@ echo "\033[1;37mHost IP : `ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*
 echo ""
 
 #공지
-echo "\033[1;31mAll Update in https://github.com/ImNyang/MirTerminal\nPls check every day it\033[1;37m"
+echo "\033[1;31mAll Update in https://github.com/Migan178/MiganTerminal\nPls check every day it\033[1;37m"
 
 #터미널 코드
 
@@ -48,7 +48,7 @@ function box_name {
 
 PROMPT='
 %{$fg[yellow]%}%n%{$reset_color%}@%{$fg[cyan]%}$(box_name)%{$reset_color%} in %{$fg_bold[green]%}${PWD/#$HOME/🏠}%{$reset_color%}$(hg_prompt_info)$(git_prompt_info)
-$(virtualenv_info)%(?,,%{${fg_bold[white]}%}[%?]%{$reset_color%} )[MirTerminal] %% '
+$(virtualenv_info)%(?,,%{${fg_bold[white]}%}[%?]%{$reset_color%} )[MiganTerminal] %% '
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" on \033[0;31m%{%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
